@@ -7,6 +7,7 @@ end
   else speed < 40
   return true
 end
+end
 
 def not_safe?(speed)
   speed = (40..60) || Range.new(40,60)
