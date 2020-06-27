@@ -1,5 +1,6 @@
 def unsafe?(speed)
-
+speed = num(40-60)
+speed 
 end
 
 
