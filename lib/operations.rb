@@ -1,6 +1,6 @@
 def unsafe?(speed)
   speed.to_i = Range.new(40,60)
-  if (40..60) == (40...60)
+  if (40..60) == (40..60)
   return false
 end
   if (61..190) > 60
