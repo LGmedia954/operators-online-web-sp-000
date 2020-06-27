@@ -1,6 +1,5 @@
-speed = Range.new(40,60)
-
 def unsafe?(speed)
+  speed = Range.new(40,60)
   if (40..60) == !(40..60)
   return false
 end
